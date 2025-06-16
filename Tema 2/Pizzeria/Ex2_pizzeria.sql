@@ -86,8 +86,8 @@ INSERT INTO CLIENTS (nom, cognoms, adreca, codi_postal, localitat, provincia, te
 
 -- Insertar datos en BOTIGUES
 INSERT INTO BOTIGUES (adreca, codi_postal, localitat, provincia) VALUES
-('Calle Pelaio, 25', '08001', 'Madrid', 'Madrid'),
-('Avinguda Meridiana, 156', '08026', 'Madrid', 'Madrid'),
+('Calle Pelaio, 25', '08001', 'Barcelona', 'Barcelona'),
+('Avinguda Meridiana, 156', '08026', 'Barcelona', 'Barcelona'),
 ('Carrer Gran de Gràcia, 78', '08012', 'Barcelona', 'Barcelona'),
 ('Ronda Sant Pere, 45', '08010', 'Barcelona', 'Barcelona'),
 ('Carrer Sants, 234', '08014', 'Barcelona', 'Barcelona'),
