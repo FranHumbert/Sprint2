@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "68527d8bbf0f3ef9e950eb72"
+  },
+  "nom": "Luxottica Iberia S.A.",
+  "contacteComplet": {
+    "adreça": "Avinguda Diagonal, 640, 5è B, Barcelona",
+    "telefon": "932123456",
+    "fax": "932123457",
+    "email": "comercial@luxottica.es",
+    "nif": "A87654321"
+  }
+},
+{
+  "_id": {
+    "$oid": "68527d97bf0f3ef9e950eb73"
+  },
+  "nom": "Safilo Group España S.L.",
+  "contacteComplet": {
+    "adreça": "Carrer de la Industria, 89, Madrid",
+    "telefon": "916789012",
+    "fax": "916789013",
+    "email": "ventas@safilo.es",
+    "nif": "B98765432"
+  }
+},
+{
+  "_id": {
+    "$oid": "68527da2bf0f3ef9e950eb74"
+  },
+  "nom": "Òptiques Barcelona S.L.",
+  "contacteComplet": {
+    "adreça": "Carrer de Balmes, 123, 2n A, Barcelona",
+    "telefon": "934567890",
+    "fax": "934567891",
+    "email": "info@optiquesbarcelona.com",
+    "nif": "B12345678"
+  }
+}]

@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "68527cacbf0f3ef9e950eb6f"
+  },
+  "nom": "Maria García López",
+  "adreçaCompleta": {
+    "carrer": "Carrer Major",
+    "numero": "45",
+    "pis": "1",
+    "porta": "A",
+    "ciutat": "L'Ampolla",
+    "codiPostal": "43895",
+    "pais": "Espanya"
+  },
+  "telefon": "977123456",
+  "email": "maria.garcia@email.com",
+  "dataRegistre": {
+    "$date": "2025-06-18T08:45:32.551Z"
+  },
+  "recomanatPer": null
+},
+{
+  "_id": {
+    "$oid": "68527cbfbf0f3ef9e950eb70"
+  },
+  "nom": "Josep Martínez Fernández",
+  "adreçaCompleta": {
+    "carrer": "Avinguda del Mar",
+    "numero": "78",
+    "pis": "3",
+    "porta": "B",
+    "ciutat": "L'Ampolla",
+    "codiPostal": "43895",
+    "pais": "Espanya"
+  },
+  "telefon": "977987654",
+  "email": "josep.martinez@gmail.com",
+  "dataRegistre": {
+    "$date": "2025-06-18T08:45:51.114Z"
+  },
+  "recomanatPer": "Maria García López"
+},
+{
+  "_id": {
+    "$oid": "68527cccbf0f3ef9e950eb71"
+  },
+  "nom": "Anna Rodríguez Sánchez",
+  "adreçaCompleta": {
+    "carrer": "Plaça de l'Església",
+    "numero": "12",
+    "pis": "",
+    "porta": "",
+    "ciutat": "L'Ampolla",
+    "codiPostal": "43895",
+    "pais": "Espanya"
+  },
+  "telefon": "977456789",
+  "email": "anna.rodriguez@hotmail.com",
+  "dataRegistre": {
+    "$date": "2025-06-18T08:46:04.862Z"
+  },
+  "recomanatPer": "Maria García López"
+}]

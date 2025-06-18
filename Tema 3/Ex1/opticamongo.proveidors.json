@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "68519e2555e8578df1d3b413"
+  },
+  "nom": "Òptiques Barcelona S.L.",
+  "adreça": {
+    "carrer": "Carrer de Balmes",
+    "numero": "123",
+    "pis": "2",
+    "porta": "A",
+    "ciutat": "Barcelona",
+    "codiPostal": "08008",
+    "pais": "Espanya"
+  },
+  "telefon": 934567890,
+  "fax": 934567891,
+  "nif": "B12345678"
+},
+{
+  "_id": {
+    "$oid": "6851a38455e8578df1d3b415"
+  },
+  "nom": "Luxottica Iberia S.A.",
+  "adreça": {
+    "carrer": "Avinguda Diagonal",
+    "numero": "640",
+    "pis": "5",
+    "porta": "B",
+    "ciutat": "Barcelona",
+    "codiPostal": "08017",
+    "pais": "Espanya"
+  },
+  "telefon": 932123456,
+  "fax": 932123457,
+  "nif": "A87654321"
+},
+{
+  "_id": {
+    "$oid": "6851a55655e8578df1d3b417"
+  },
+  "nom": "Safilo Group España S.L.",
+  "adreça": {
+    "carrer": "Carrer de la Industria",
+    "numero": "89",
+    "pis": "",
+    "porta": "",
+    "ciutat": "Madrid",
+    "codiPostal": "28108",
+    "pais": "Espanya"
+  },
+  "telefon": 916789012,
+  "fax": 916789013,
+  "nif": "B98765432"
+}]

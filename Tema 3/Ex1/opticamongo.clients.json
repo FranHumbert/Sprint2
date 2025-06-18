@@ -1,0 +1,87 @@
+[{
+  "_id": {
+    "$oid": "6851b178bf0f3ef9e950eb6c"
+  },
+  "nom": "Maria García López",
+  "adreçaPostal": {
+    "carrer": "Carrer Major",
+    "numero": "45",
+    "pis": "1",
+    "porta": "A",
+    "ciutat": "L'Ampolla",
+    "codiPostal": "43895",
+    "pais": "Espanya"
+  },
+  "telefon": "977123456",
+  "correuElectronic": "maria.garcia@email.com",
+  "dataRegistre": {
+    "$date": "2025-06-17T18:18:32.891Z"
+  },
+  "recomanatPer_id": null,
+  "compres": [
+    {
+      "_id": {
+        "$oid": "6851b178bf0f3ef9e950eb6b"
+      },
+      "dataCompra": {
+        "$date": "2025-06-15T00:00:00.000Z"
+      },
+      "horaCompra": "10:30",
+      "empleat": "Laura Pérez",
+      "ulleres": [
+        {
+          "ullera_id": {
+            "$oid": "6851aa79bf0f3ef9e950eb6a"
+          }
+        },
+        {
+          "ullera_id": {
+            "$oid": "6851ad8755e8578df1d3b420"
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6851b5c5bf0f3ef9e950eb6e"
+  },
+  "nom": "Josep Martínez Fernández",
+  "adreçaPostal": {
+    "carrer": "Avinguda del Mar",
+    "numero": "78",
+    "pis": "3",
+    "porta": "B",
+    "ciutat": "L'Ampolla",
+    "codiPostal": "43895",
+    "pais": "Espanya"
+  },
+  "telefon": "977987654",
+  "correuElectronic": "josep.martinez@gmail.com",
+  "dataRegistre": {
+    "$date": "2025-06-17T18:36:53.751Z"
+  },
+  "recomanatPer_id": {
+    "$oid": "6851b178bf0f3ef9e950eb6c"
+  },
+  "compres": [
+    {
+      "_id": {
+        "$oid": "6851b5c5bf0f3ef9e950eb6d"
+      },
+      "dataCompra": {
+        "$date": "2025-06-16T00:00:00.000Z"
+      },
+      "horaCompra": "15:45",
+      "empleat": "Carlos López",
+      "ulleres": [
+        {
+          "ullera_id": {
+            "$oid": "6851aed355e8578df1d3b424"
+          }
+        }
+      ]
+    }
+  ]
+}]

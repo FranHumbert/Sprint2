@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6851aa79bf0f3ef9e950eb6a"
+  },
+  "marca": "Ray-Ban Aviator",
+  "graduacio": {
+    "vidreEsquerre": -2.5,
+    "vidreDret": -2.25
+  },
+  "muntura": {
+    "tipus": "metàl·lica",
+    "color": "daurat"
+  },
+  "vidres": {
+    "colorEsquerre": "marró",
+    "colorDret": "marró"
+  },
+  "preu": 180,
+  "proveidor_id": {
+    "$oid": "60a1b2c3d4e5f6789012345a"
+  }
+},
+{
+  "_id": {
+    "$oid": "6851ad8755e8578df1d3b420"
+  },
+  "marca": "Oakley Holbrook",
+  "graduacio": {
+    "vidreEsquerre": 0,
+    "vidreDret": 0
+  },
+  "muntura": {
+    "tipus": "pasta",
+    "color": "negre"
+  },
+  "vidres": {
+    "colorEsquerre": "gris",
+    "colorDret": "gris"
+  },
+  "preu": 145,
+  "proveidor_id": {
+    "$oid": "6851a38455e8578df1d3b415"
+  }
+},
+{
+  "_id": {
+    "$oid": "6851aed355e8578df1d3b424"
+  },
+  "marca": "Hugo Boss 1234",
+  "graduacio": {
+    "vidreEsquerre": -1.75,
+    "vidreDret": -1.5
+  },
+  "muntura": {
+    "tipus": "flotant",
+    "color": "transparent"
+  },
+  "vidres": {
+    "colorEsquerre": "transparent",
+    "colorDret": "transparent"
+  },
+  "preu": 220,
+  "proveidor_id": {
+    "$oid": "6851a55655e8578df1d3b417"
+  }
+}]

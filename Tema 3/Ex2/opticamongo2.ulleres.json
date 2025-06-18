@@ -1,0 +1,124 @@
+[{
+  "_id": {
+    "$oid": "6852a2e6bf0f3ef9e950eb78"
+  },
+  "marca": "Ray-Ban",
+  "model": "Aviator Classic",
+  "graduacio": {
+    "vidreEsquerre": -2.5,
+    "vidreDret": -2.25
+  },
+  "muntura": {
+    "tipus": "metàl·lica",
+    "color": "daurat"
+  },
+  "vidres": {
+    "colorEsquerre": "marró",
+    "colorDret": "marró"
+  },
+  "preu": 180,
+  "proveidor": {
+    "nom": "Luxottica Iberia S.A.",
+    "telefon": "932123456",
+    "nif": "A87654321",
+    "adreça": "Avinguda Diagonal, 640, Barcelona"
+  },
+  "clients": [
+    {
+      "nom": "Maria García López",
+      "telefon": "977123456",
+      "email": "maria.garcia@email.com",
+      "dataCompra": {
+        "$date": "2025-06-15T00:00:00.000Z"
+      },
+      "empleat": "Laura Pérez",
+      "preuVenda": 170
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6852a346bf0f3ef9e950eb79"
+  },
+  "marca": "Oakley",
+  "model": "Holbrook",
+  "graduacio": {
+    "vidreEsquerre": 0,
+    "vidreDret": 0
+  },
+  "muntura": {
+    "tipus": "pasta",
+    "color": "negre"
+  },
+  "vidres": {
+    "colorEsquerre": "gris",
+    "colorDret": "gris"
+  },
+  "preu": 145,
+  "proveidor": {
+    "nom": "Luxottica Iberia S.A.",
+    "telefon": "932123456",
+    "nif": "A87654321",
+    "adreça": "Avinguda Diagonal, 640, Barcelona"
+  },
+  "clients": [
+    {
+      "nom": "Josep Martínez Fernández",
+      "telefon": "977987654",
+      "email": "josep.martinez@gmail.com",
+      "dataCompra": {
+        "$date": "2025-06-16T00:00:00.000Z"
+      },
+      "empleat": "Carlos López",
+      "preuVenda": 145
+    },
+    {
+      "nom": "Pere Sánchez Vila",
+      "telefon": "977321987",
+      "email": "pere.sanchez@outlook.com",
+      "dataCompra": {
+        "$date": "2025-06-18T00:00:00.000Z"
+      },
+      "empleat": "Marta Fernández",
+      "preuVenda": 140
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6852a378bf0f3ef9e950eb7a"
+  },
+  "marca": "Hugo Boss",
+  "model": "1234",
+  "graduacio": {
+    "vidreEsquerre": -1.75,
+    "vidreDret": -1.5
+  },
+  "muntura": {
+    "tipus": "flotant",
+    "color": "transparent"
+  },
+  "vidres": {
+    "colorEsquerre": "transparent",
+    "colorDret": "transparent"
+  },
+  "preu": 220,
+  "proveidor": {
+    "nom": "Safilo Group España S.L.",
+    "telefon": "916789012",
+    "nif": "B98765432",
+    "adreça": "Carrer de la Industria, 89, Madrid"
+  },
+  "clients": [
+    {
+      "nom": "Anna Rodríguez Sánchez",
+      "telefon": "977456789",
+      "email": "anna.rodriguez@hotmail.com",
+      "dataCompra": {
+        "$date": "2025-06-17T00:00:00.000Z"
+      },
+      "empleat": "Marta Fernández",
+      "preuVenda": 205
+    }
+  ]
+}]
