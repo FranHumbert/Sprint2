@@ -72,14 +72,14 @@ select p.nombre, p.precio, f.nombre as fabricante from producto p join fabricant
 -- Ordena el resultat, en primer lloc, pel preu (en ordre descendent) i, en segon lloc, pel nom (en ordre ascendent).
 select p.nombre, p.precio, f.nombre as fabricante from producto p join fabricante f on p.codigo_fabricante = f.codigo where p.precio >= 180 order by p.precio desc, p.nombre asc;
 -- 33. Retorna un llistat amb el codi i el nom de fabricant, solament d'aquells fabricants que tenen productes associats en la base de dades.
-select f.codigo, f.nombre from fabricante f join producto p on f.codigo = p.codigo_fabricante;
+select distinct f.codigo, f.nombre from fabricante f join producto p on f.codigo = p.codigo_fabricante;
 -- 34. Retorna un llistat de tots els fabricants que existeixen en la base de dades, juntament amb els productes que té cadascun d'ells. 
 -- El llistat haurà de mostrar també aquells fabricants que no tenen productes associats.
 select f.nombre as fabricante, p.nombre as producto from producto p right join fabricante f on p.codigo_fabricante = f.codigo;
 -- 35 . Retorna un llistat on només apareguin aquells fabricants que no tenen cap producte associat.
 select f.nombre as fabricante, p.nombre as producto from producto p right join fabricante f on p.codigo_fabricante = f.codigo where p.nombre is null;
 -- 36. Retorna tots els productes del fabricant Lenovo. (Sense utilitzar INNER JOIN).
-
+select * from producto where codigo_fabricante = (select codigo from fabricante where nombre = 'Lenovo');
 -- 37. Retorna totes les dades dels productes que tenen el mateix preu que el producte més car del fabricant Lenovo.
 -- (Sense fer servir INNER JOIN).
 -- 38. Llista el nom del producte més car del fabricant Lenovo.
